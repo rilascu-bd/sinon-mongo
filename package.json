@@ -1,5 +1,5 @@
 {
-  "name": "sinon-mongo",
+  "name": "@repobit/sinon-mongo",
   "version": "2.1.0",
   "description": "sinon extensions for unit testing code using the mongodb driver",
   "author": {
@@ -7,9 +7,9 @@
     "url": "https://github.com/DaniJG"
   },
   "repository": {
-    "url": "https://github.com/DaniJG/sinon-mongo"
+    "url": "https://github.com/rilascu-bd/sinon-mongo"
   },
-  "homepage": "https://github.com/DaniJG/sinon-mongo",
+  "homepage": "https://github.com/rilascu-bd/sinon-mongo",
   "keywords": [
     "sinon",
     "mongo",
@@ -28,12 +28,12 @@
     "chai": "^4.3.4",
     "husky": "^7.0.4",
     "mocha": "^9.1.3",
-    "mongodb": "^4.2.2",
+    "mongodb": "^6.21.0",
     "nyc": "^15.1.0",
     "sinon": "^12.0.1"
   },
   "peerDependencies": {
-    "mongodb": ">= 4.0.0 < 5",
+    "mongodb": ">= 4.0.0",
     "sinon": ">= 6.3.0 < 13"
   },
   "license": "MIT"
